@@ -1,0 +1,34 @@
+
+	@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=McLaren&display=swap');
+  
+	body {
+	  font-family: Arial, sans-serif;
+	  text-align: center;
+	  background-color: #f0f0f0;
+	  margin: 0;
+	  padding: 0;
+	}
+  
+	#content {
+	  margin: 20% auto;
+	  max-width: 600px;
+	  background-color: #fff;
+	  padding: 20px;
+	  border: 1px solid #ddd;
+	}
+  
+	p {
+	  font-family: 'Source Code Pro', monospace !important;
+	}
+  
+	p > span {
+	  font-family: 'McLaren', sans-serif;
+	  color: #eda73e;
+	  font-size: 1.2rem;
+	}
+  
+	p > span > a {
+	  text-decoration: none;
+	  color: #eda73e;
+	}
