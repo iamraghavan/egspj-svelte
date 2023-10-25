@@ -5,7 +5,7 @@
 	onMount(() => {
 	  const timer = setTimeout(() => {
 		window.location.href = "https://egspschools.com";
-	  }, seconds * 1000);
+	  }, seconds * 100);
   
 	  return () => {
 		clearTimeout(timer);
