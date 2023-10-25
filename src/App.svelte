@@ -1,6 +1,6 @@
 <script>
 	import { onMount } from "svelte";
-	let seconds = 2; // Set the number of seconds for the redirection
+	let seconds = 1; // Set the number of seconds for the redirection
   
 	onMount(() => {
 	  const timer = setTimeout(() => {
